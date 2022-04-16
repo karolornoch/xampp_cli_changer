@@ -24,7 +24,7 @@ set $scriptVersion=1.3.1
 
 set $defaultInstallPath[0]=G:\xampp
 
-set $pathToPhpFolders=\phps
+set $pathToPhpFolders=phps
 
 set $cliMode=0
 set $cliSessionMode=0
