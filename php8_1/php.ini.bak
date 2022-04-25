@@ -762,7 +762,7 @@ user_dir =
 ; https://php.net/extension-dir
 ;extension_dir = "./"
 ; On windows:
-extension_dir = "ext"
+extension_dir = "G:\xampp\phps\php8_1\ext"
 
 ; Directory where the temporary files should be placed.
 ; Defaults to the system default (see sys_get_temp_dir)
@@ -1919,7 +1919,7 @@ ldap.max_links = -1
 [curl]
 ; A default value for the CURLOPT_CAINFO option. This is required to be an
 ; absolute path.
-;curl.cainfo =
+curl.cainfo = "G:\certs\cacert.pem"
 
 [openssl]
 ; The location of a Certificate Authority (CA) file on the local filesystem
