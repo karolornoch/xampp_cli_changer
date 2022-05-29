@@ -883,6 +883,7 @@ extension=php_gettext.dll
 ;extension=php_gmp.dll
 extension=php_intl.dll
 ;extension=php_imap.dll
+extension=php_imagick.dll
 ;extension=php_interbase.dll
 ;extension=php_ldap.dll
 extension=php_mbstring.dll
