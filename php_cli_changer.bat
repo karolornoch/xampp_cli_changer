@@ -22,7 +22,7 @@ rem -------------------
 set $scriptVersion=1.3.1
 
 
-set $defaultInstallPath[0]=G:\xampp
+set $defaultInstallPath[0]=D:\xampp
 
 set $pathToPhpFolders=phps
 
