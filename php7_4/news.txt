@@ -1,10 +1,37 @@
 PHP                                                                        NEWS
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+29 Sep 2022, PHP 7.4.32
+
+- Core:
+  . Fixed bug #81726: phar wrapper: DOS when using quine gzip file.
+    (CVE-2022-31628). (cmb)
+  . Fixed bug #81727: Don't mangle HTTP variable names that clash with ones
+    that have a specific semantic meaning. (CVE-2022-31629). (Derick)
+
+09 Jun 2022, PHP 7.4.30
+
+- mysqlnd:
+  . Fixed bug #81719: mysqlnd/pdo password buffer overflow. (CVE-2022-31626)
+    (c dot fol at ambionics dot io)
+
+- pgsql
+  . Fixed bug #81720: Uninitialized array in pg_query_params(). 
+    (CVE-2022-31625) (cmb)
+
+14 Apr 2022, PHP 7.4.29
+
+- Core:
+  . No source changes to this release.
+    Version number added for reproduction of Windows builds.
+
+- Date:
+  . Updated to latest IANA timezone database (2022a). (Derick)
+
 17 Feb 2022, PHP 7.4.28
 
 - Filter:
   . Fix #81708: UAF due to php_filter_float() failing for ints
-
+    (CVE-2021-21708) (stas)
 
 16 Dec 2021, PHP 7.4.27
 
